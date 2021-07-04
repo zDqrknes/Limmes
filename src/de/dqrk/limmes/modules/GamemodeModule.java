@@ -21,7 +21,7 @@ public class GamemodeModule implements CommandExecutor, Listener {
                 }else{
                     Player t = Bukkit.getPlayer(args[1]);
                     if(t != null){
-                        
+
                     }else
                         p.sendMessage(Limmes.getStrings().getString(Module.GAMEMODE_MODULE, "PlayerNotFound"));
                 }

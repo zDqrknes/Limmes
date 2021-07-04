@@ -9,7 +9,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-public class JoinquitModule implements Listener {
+public class JoinQuitModule implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent e){
